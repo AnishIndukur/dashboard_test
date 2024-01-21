@@ -342,7 +342,7 @@ content: 'TEST';
 }
 
 /*Button*/
-.stButton{
+div.stButton > button:first-child{
     position: relative;
     width: 239.048px;
     height: 220px;
@@ -353,6 +353,7 @@ content: 'TEST';
     overflow: hidden;
     box-sizing: border-box;
 }
+
 
 /* Input titles */
 .effi0qh0{
