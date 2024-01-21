@@ -341,6 +341,24 @@ content: 'TEST';
     padding-top:1px;
 }
 
+/*Button*/
+.stButton{
+    background-color: #00B7C2;
+    border-radius: 9px;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
 /* Input titles */
 .effi0qh0{
     padding-bottom: 0rem;
@@ -410,4 +428,6 @@ div>div>div>img{
 #bui-2>div>ul>li:nth-child(13) /* About */{ 
     visibility: hidden;
 }
+
+
 
