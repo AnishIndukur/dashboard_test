@@ -17,7 +17,25 @@ def main():
     # Selecting a job
     # st.sidebar.image(logo)
     st.sidebar.selectbox('Select',('loren','Ipsum'))
-    st.sidebar.button('Button')
+    st.sidebar.button(st.markdown(
+                                   <div class="main-container">
+      <span class="text">Active</span><span class="text-2">Model 1<br /></span
+      ><span class="text-3">Last Localized: 12.02.22</span>
+      <div class="section">
+        <div class="wrapper">
+          <span class="text-4">0.##</span><span class="text-5">0.##</span
+          ><span class="text-6">0.##</span>
+        </div>
+        <div class="wrapper-2">
+          <span class="text-7">AUC</span><span class="text-8">Accuracy</span
+          ><span class="text-9">FPR</span>
+        </div>
+      </div>
+      <div class="group"></div>
+    </div>
+                                  
+                                  ))
+                      
     st.sidebar.multiselect('Multi',('loren','Ipsum'))
     st.sidebar.date_input('Date')
     st.sidebar.text_input('Text')
