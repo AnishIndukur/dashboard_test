@@ -17,6 +17,7 @@ def main():
     # Selecting a job
     # st.sidebar.image(logo)
     st.sidebar.selectbox('Select',('loren','Ipsum'))
+    st.sidebar.button('Button')
     st.sidebar.multiselect('Multi',('loren','Ipsum'))
     st.sidebar.date_input('Date')
     st.sidebar.text_input('Text')
